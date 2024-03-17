@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+.page .page-header .title {
+    text-align: center;
+}
+
+.page .page-header .text {
+    text-align: center;
+}
+
+.page .page-header .text img {
+    width: 450px;
+}
+
+.page .blog .text {
+    text-align: justify;
+}
+
+.page .page-footer .text {
+    text-align: right;
+}
+
+.page .blog {
+    display: flex;
+}
+
+.page .blog .post {
+    flex: 1;
+    margin: 5px;
+    text-align: justify;
+}
+
+.page .post .comment {
+    display: flex;
+}
+.page .comment .post1 {
+    flex: 1;
+}
