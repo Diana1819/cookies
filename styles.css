@@ -35,30 +35,69 @@ body {
 .page .post .comment {
     display: flex;
 }
+
 .page .comment .post1 {
     flex: 1;
 }
 
 .menu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: bisque;
-    }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+}
 
 .menu li {
-        float: left;
-    }
+    float: left;
+}
 
 .menu li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 .menu li a:hover {
-        background-color: burlywood;
-    }
+    background-color: burlywood;
+}
+
+.button {
+    background-color: #daaf7a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 5px;
+    position: absolute;
+    left: 50%;
+}
+
+.Главная {
+    background-color: #daaf7a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 5px;
+}
+
+.Новости {
+    background-color: #daaf7a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 5px;
+}
+
+.Блог {
+    background-color: #daaf7a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 5px;
+}
