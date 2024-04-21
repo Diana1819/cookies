@@ -1,3 +1,4 @@
-window.onload = function () {
-    alert("Привет!")
+function showMessage() {
+    alert ("Всем Привет!")
 }
+showMessage();
