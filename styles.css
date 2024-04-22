@@ -75,25 +75,7 @@ body {
     left: 50%;
 }
 
-.Главная {
-    background-color: #daaf7a;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50px 5px;
-}
-
-.Новости {
-    background-color: #daaf7a;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50px 5px;
-}
-
-.Блог {
+.news {
     background-color: #daaf7a;
     color: black;
     padding: 10px 20px;
