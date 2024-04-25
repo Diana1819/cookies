@@ -52,7 +52,7 @@ body {
     float: left;
 }
 
-.menu li a {
+.menu .menu-item li {
     display: block;
     color: black;
     text-align: center;
@@ -60,7 +60,7 @@ body {
     text-decoration: none;
 }
 
-.menu li a:hover {
+.menu li:hover {
     background-color: burlywood;
 }
 
