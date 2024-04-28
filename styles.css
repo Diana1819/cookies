@@ -35,30 +35,45 @@ body {
 .page .post .comment {
     display: flex;
 }
+
 .page .comment .post1 {
     flex: 1;
 }
 
-.menu ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: bisque;
-    }
+.page .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+}
 
-.menu li {
-        float: left;
-    }
+.page .menu li {
+    float: left;
+}
 
-.menu li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+.menu li:hover {
+    background-color: burlywood;
+}
 
-.menu li a:hover {
-        background-color: burlywood;
-    }
+.button {
+    background-color: #daaf7a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.page .menu .menu-item {
+    display: block;
+    border: 1px solid #91642c;
+    background-color: #daaf7a;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px 5px;
+}

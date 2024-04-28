@@ -1,4 +1,4 @@
 function showMessage() {
-    alert ("Всем Привет!")
+    let userEmail = prompt("Пожалуйста, введите ваш email:");
+    console.log("Email пользователя:", userEmail);
 }
-showMessage();
