@@ -23,11 +23,11 @@ body {
     text-align: right;
 }
 
-.page .blog {
+.page-main .blog {
     display: flex;
 }
 
-.page .blog .post {
+.page-main .blog .post {
     flex: 1;
     margin: 5px;
     text-align: justify;
@@ -97,6 +97,15 @@ body {
     height: 3px;
 }
 
-.blog-item {
+.page-blog .blog {
     text-align: justify;
+}
+
+.page-blog .hr {
+    background-color: #91642c;
+    height: 3px;
+}
+
+.blog-item-link {
+    text-align: right;
 }
