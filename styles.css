@@ -4,6 +4,7 @@ body {
 
 .page .page-header .title {
     text-align: center;
+    font-size: 28px;
 }
 
 .page .page-header .text {
@@ -22,11 +23,11 @@ body {
     text-align: right;
 }
 
-.page .blog {
+.page-main .blog {
     display: flex;
 }
 
-.page .blog .post {
+.page-main .blog .post {
     flex: 1;
     margin: 5px;
     text-align: justify;
@@ -76,4 +77,35 @@ body {
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px 5px;
+}
+
+.news .news-item-title {
+    font-size: 20px;
+    font-family: Suranna, serif
+}
+
+.news .news-item-link {
+    text-align: right;
+}
+
+.news {
+    text-align: justify;
+}
+
+.news .hr {
+    background-color: #91642c;
+    height: 3px;
+}
+
+.page-blog .blog {
+    text-align: justify;
+}
+
+.page-blog .hr {
+    background-color: #91642c;
+    height: 3px;
+}
+
+.blog-item-link {
+    text-align: right;
 }
