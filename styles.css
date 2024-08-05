@@ -2,46 +2,7 @@ body {
     background-color: bisque;
 }
 
-.page .page-header .title {
-    text-align: center;
-    font-size: 28px;
-}
-
-.page .page-header .text {
-    text-align: center;
-}
-
-.page .page-header .text img {
-    width: 450px;
-}
-
-.page .blog .text {
-    text-align: justify;
-}
-
-.page .page-footer .text {
-    text-align: right;
-}
-
-.page-main .blog {
-    display: flex;
-}
-
-.page-main .blog .post {
-    flex: 1;
-    margin: 5px;
-    text-align: justify;
-}
-
-.page .post .comment {
-    display: flex;
-}
-
-.page .comment .post1 {
-    flex: 1;
-}
-
-.page .menu ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,26 +10,11 @@ body {
     background-color: bisque;
 }
 
-.page .menu li {
+.menu li {
     float: left;
 }
 
-.menu li:hover {
-    background-color: burlywood;
-}
-
-.button {
-    background-color: #daaf7a;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50px 5px;
-    margin: 0 auto;
-    display: block;
-}
-
-.page .menu .menu-item {
+.menu .menu-item {
     display: block;
     border: 1px solid #91642c;
     background-color: #daaf7a;
@@ -79,33 +25,28 @@ body {
     border-radius: 50px 5px;
 }
 
-.news .news-item-title {
-    font-size: 20px;
-    font-family: Suranna, serif
+.header {}
+
+.header .header-text {
+    text-align: center;
 }
 
-.news .news-item-link {
+.header .header-title {
+    text-align: center;
+    font-size: 28px;
+}
+
+.header .header-text img {
+    width: 450px;
+}
+
+.footer {}
+
+.footer .footer-text {
     text-align: right;
 }
 
-.news {
-    text-align: justify;
-}
+.page-main {}
 
-.news .hr {
-    background-color: #91642c;
-    height: 3px;
-}
 
-.page-blog .blog {
-    text-align: justify;
-}
 
-.page-blog .hr {
-    background-color: #91642c;
-    height: 3px;
-}
-
-.blog-item-link {
-    text-align: right;
-}
